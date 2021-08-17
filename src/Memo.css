@@ -1,0 +1,27 @@
+*{
+box-sizing: border-box;
+padding : 0;
+margin : 0;
+/* border : 1px gray solid; */
+}
+.box_frame{
+    display : flex;
+    margin:20px;
+}
+
+.box{
+    width : 180px;
+    height : 60px;
+    border : 1px solid gray;
+    margin : 10px;
+}
+
+.littleTitle{
+    display:flex;
+    justify-content: space-between;
+    border-bottom : solid gray 1px;
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+    
+
